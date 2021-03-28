@@ -47,7 +47,9 @@ ui <- bootstrapPage(
 
     titlePanel("EMEP MSC-W modelled air concentrations and depositions"),
     p("Visalization is based on EMEP web map services. The data shown are 2000-2016 re-calculations (Type 2) on daily level."),
-    a("See EMEP website for details",href = "https://www.emep.int/mscw/mscw_ydata.html"),
+    a("See EMEP website for details.",href = "https://www.emep.int/mscw/mscw_ydata.html"),
+    a("The code is available on github.",href = "https://github.com/AndSchmitz/EMEPModelDataViewer"),
+
     #Adding some vertical blank space:
     fluidRow(
         column(
